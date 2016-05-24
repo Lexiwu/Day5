@@ -1,0 +1,40 @@
+﻿body {
+    .main-menu{
+       background-color:#FFF;
+       border-top:#f34949 5px solid;
+    }
+
+
+    .menu-describe{
+        color:#CCC;
+        font-size:50%;
+
+    }
+    .menu-one{
+        /*display:inline-block;*/
+        margin-top:50px;
+        menu-left{
+            text-align:center;                    
+            dd{
+                text-align:left;
+                }
+        }
+    }
+
+    main-menu img, p{
+        display:inline-block;
+    }
+
+    .menu-logo{
+        text-align:center;
+    }
+
+    .s-line{
+        padding:0;
+    } 
+
+    .load-more{
+        text-align:center;
+        margin:50px 0 100px 0;
+    }
+}

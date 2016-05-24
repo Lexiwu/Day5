@@ -1,0 +1,27 @@
+﻿body .gallery {
+  background-color: #FFF; }
+
+body .gallery-pic {
+  margin-top: 50px;
+  margin-bottom: 150px; }
+
+body .gallery-logo {
+  margin: 50px 0; }
+
+body .big-pic {
+  padding-right: 0; }
+
+body .little-pic1 {
+  padding: 0;
+  position: relative;
+  left: -19px; }
+
+body .little-pic2 {
+  padding: 0;
+  position: relative;
+  left: -52px; }
+
+body .nopadding {
+  padding: 0 !important;
+  margin: 0 !important; }
+

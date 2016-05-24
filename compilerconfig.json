@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "style/top-navbar.css",
+    "inputFile": "style/top-navbar.scss"
+  },
+  {
+    "outputFile": "style/billboard.css",
+    "inputFile": "style/billboard.scss"
+  },
+  {
+    "outputFile": "style/menu.css",
+    "inputFile": "style/menu.scss"
+  },
+  {
+    "outputFile": "style/dishes.css",
+    "inputFile": "style/dishes.scss"
+  },
+  {
+    "outputFile": "style/gallery.css",
+    "inputFile": "style/gallery.scss"
+  },
+  {
+    "outputFile": "style/res-info.css",
+    "inputFile": "style/res-info.scss"
+  }
+]

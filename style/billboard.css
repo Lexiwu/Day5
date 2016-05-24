@@ -1,0 +1,17 @@
+﻿body .billboard {
+  background-image: url("../image/billboard/Layer1.png");
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+body .billboard-pic {
+  margin-top: 210px;
+  text-align: center; }
+
+body .billboard-txt {
+  margin-bottom: 210px; }
+
+body .cover {
+  background-color: #3d4044;
+  opacity: 1;
+  z-index: -1; }
+

@@ -1,0 +1,25 @@
+﻿body .dishes {
+  background-color: #FFF; }
+
+body .dish-one {
+  margin: 10px;
+  float: left;
+  width: 230px; }
+
+body .dish-desc:hover {
+  color: #ccc; }
+
+body .dish-desc {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+body .rating {
+  display: block; }
+
+body .dish-logo {
+  margin: 50px 0; }
+
+body .dishes-display {
+  margin: 50px 0 120px 0; }
+
