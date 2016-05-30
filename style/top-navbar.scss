@@ -31,11 +31,6 @@
         color:#d02a2a;
     }
 
-    .billboard-txt p{
-        color:#FFF;
-
-    }
-
     #gotop{
         position: fixed;
         width:30px;
@@ -48,34 +43,9 @@
         color: white;
         cursor: pointer;
         border-radius:4px;
-
     }
 
 
-   .news-content{
-    display:none;
-    position: absolute;
-    left:300px;
-    top:65px;
-    background-color: #f9f9f9;
-    width: 100px;
-    overflow: auto;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index:1;
-        }
-
-    .reviews-content{
-    display:none;
-    position: absolute;
-    left:365px;
-    top:65px;
-    background-color: #f9f9f9;
-    width: 100px;
-    overflow: auto;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index:1;
-
-        }
 
     .news-content a,.reviews-content a{
     color: black;
@@ -88,5 +58,108 @@
     .news-content a:hover,.reviews-content a:hover {background-color: #f1f1f1}
 
     .show {display:block;}
+
+   ///////// dropdown list
+    
+     @media screen and (max-width:768px){
+       .reviews-content{
+            display:none;
+            position: absolute;
+            left:360px;
+            top:40px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+        .news-content{
+            display:none;
+            position: absolute;
+            left:300px;
+            top:40px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+    }
+
+    @media screen and (min-width:768px){
+       .reviews-content{
+            display:none;
+            position: absolute;
+            left:365px;
+            top:40px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+        .news-content{
+            display:none;
+            position: absolute;
+            left:300px;
+            top:40px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+    }
+
+     @media screen and (min-width:992px){
+        .reviews-content{
+            display:none;
+            position: absolute;
+            left:365px;
+            top:70px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+         .news-content{
+            display:none;
+            position: absolute;
+            left:300px;
+            top:70px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+    }
+
+     @media screen and (min-width:1200px){
+       .reviews-content{
+            display:none;
+            position: absolute;
+            left:365px;
+            top:65px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+        .news-content{
+            display:none;
+            position: absolute;
+            left:300px;
+            top:65px;
+            background-color: #f9f9f9;
+            width: 100px;
+            overflow: auto;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index:1;
+        }
+    }
+
   
 }

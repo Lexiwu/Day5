@@ -8,10 +8,11 @@
     });
     $(window).scroll(function () {
 
-        if($(this).scrollTop()>200){
-            $("#gotop").fadeIn();}
+        if ($(this).scrollTop() > 200) {
+            $("#gotop").fadeIn();
+        }
         else {
-            $("#gotop").stop().fadeOut();        
+            $("#gotop").stop().fadeOut();
         }
     });
 
@@ -21,11 +22,11 @@
 
     $("#story").click(function () {
         $('html,body').animate({ scrollTop: $('.billboard').offset().top }, 600);
-       
+
     });
 
     $("#menu").click(function () {
-        $('html,body').animate({ scrollTop: $('.main-menu').offset().top },600);
+        $('html,body').animate({ scrollTop: $('.main-menu').offset().top }, 600);
     });
 
     $("#reservation").click(function () {
@@ -46,7 +47,7 @@
 
 
     // Close the dropdown if the user clicks outside of it
-     
+
 
     window.onclick = function (event) {
 
@@ -80,4 +81,4 @@
 
 
 
-})
+});

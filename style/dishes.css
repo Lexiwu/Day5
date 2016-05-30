@@ -1,11 +1,6 @@
 ﻿body .dishes {
   background-color: #FFF; }
 
-body .dish-one {
-  margin: 10px;
-  float: left;
-  width: 230px; }
-
 body .dish-desc:hover {
   color: #ccc; }
 
@@ -22,4 +17,9 @@ body .dish-logo {
 
 body .dishes-display {
   margin: 50px 0 120px 0; }
+
+@media screen and (max-width: 768px) {
+  body .dishes-xs {
+    padding-left: 10px;
+    padding-right: 20px; } }
 

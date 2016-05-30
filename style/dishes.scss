@@ -3,11 +3,7 @@
         background-color:#FFF;
     }
 
-    .dish-one{
-        margin:10px;
-        float:left;
-        width:230px;
-    }
+
 
     .dish-desc:hover{
         color:#ccc;
@@ -31,5 +27,22 @@
     .dishes-display{
         margin:50px 0 120px 0;
     }
+
+
+
+    ///////
+
+     @media screen and (max-width:768px){
+        .dishes-xs{
+            padding-left:10px;
+            padding-right:20px;
+        }
+    }
+
+
+
+    
+
+    
 
 }

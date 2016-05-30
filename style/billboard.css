@@ -1,7 +1,8 @@
 ﻿body .billboard {
-  background-image: url("../image/billboard/Layer1.png");
-  background-position: 50%;
-  background-repeat: no-repeat; }
+  background-image: url("../image/billboard/Layer1.png"), linear-gradient(to right, #1e4b73, rgba(255, 255, 255, 0));
+  background-position: 50%,212px;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 77.5% 100%,64% 104%; }
 
 body .billboard-pic {
   margin-top: 210px;
@@ -11,7 +12,24 @@ body .billboard-txt {
   margin-bottom: 210px; }
 
 body .cover {
+  position: relative;
   background-color: #3d4044;
-  opacity: 1;
-  z-index: -1; }
+  opacity: 0.7;
+  z-index: 1; }
+
+@media screen and (max-width: 768px) {
+  body .tttt {
+    color: #781169; } }
+
+@media screen and (min-width: 768px) {
+  body .tttt {
+    color: #FF0000; } }
+
+@media screen and (min-width: 992px) {
+  body .tttt {
+    color: #ffd800; } }
+
+@media screen and (min-width: 1200px) {
+  body .tttt {
+    color: #192165; } }
 
