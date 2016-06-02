@@ -1,8 +1,7 @@
 ﻿body .billboard {
   background-image: url("../image/billboard/Layer1.png"), linear-gradient(to right, #1e4b73, rgba(255, 255, 255, 0));
-  background-position: 50%,212px;
-  background-repeat: no-repeat,no-repeat;
-  background-size: 77.5% 100%,64% 104%; }
+  background-position: 50%;
+  background-repeat: no-repeat,no-repeat; }
 
 body .billboard-pic {
   margin-top: 210px;
